@@ -13,16 +13,21 @@ function initMap() {
     //////////////////////////////////////////////////////Nokia/////////////////////////////////////////////////////
 
     var infowindow = new google.maps.InfoWindow({
-        content:'<font color="black">'+
-                    '<h2 style="color:black;">UOttaHack</h2>'+
-                    '<img ALIGN="Center" style="max-width:400px;height:auto;" src="images/images/verafin.jpg">'+
-                    '<p>During my time at Nalcor I worked here when I was not in the field.</p>'+
-                    '<div>'+
-                        '<a href="#nokia" style = "color:#0000ff;" class="button special circle color1 icon fa-angle-right">click for details</a>'+
-                        '<p>click for details</p>'+
-                    '</div>'+
-                '</font>',
-        maxWidth:400,
+        content:'<head>'+
+                    '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">'+
+                '</head>'+
+                '<body>'+
+                   '<font color="#de7172">'+
+                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/uottahackmap.jpeg">'+
+                        'First ever Hacakthon for me to attended'+
+                        '<br>'+
+                        '<br>'+
+                        '<ul class="contact-icons color1">'+
+                            '<a class="button special circle icon fa-angle-right fa-2x"  style="background:MistyRose; float:left; color:blacks"  href="#uottahack"> </a> &nbsp'+
+                        '</ul>'+
+                    '</font>'+
+                '</body>',
+        maxWidth:250,
         backgroundColour:'rgb(57,57,57)',  
     });
     var marker = new google.maps.Marker({
@@ -37,16 +42,21 @@ function initMap() {
     ////////////////////////////////////////////////////Bluedrop//////////////////////////////////////////////////////
 
     var infowindow2 = new google.maps.InfoWindow({
-        content:'<font color="black">'+
-                    '<h2 style="color:black;">SteelHacks</h2>'+
-                    '<img ALIGN="Center" style="max-width:400px;height:auto;" src="images/images/verafin.jpg">'+
-                    '<p>During my time at Nalcor I worked here when I was not in the field.</p>'+
-                    '<div>'+
-                        '<a href="#nokia" style = "color:#0000ff;" class="button special circle color1 icon fa-angle-right">click for details</a>'+
-                        '<p>click for details</p>'+
-                    '</div>'+
-                '</font>',
-        maxWidth:400,
+        content:'<head>'+
+                    '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">'+
+                '</head>'+
+                '<body>'+
+                   '<font color="#de7172">'+
+                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/steelmap.jpg">'+
+                        'Hacakthon at the University of Pittsburgh'+
+                        '<br>'+
+                        '<br>'+
+                        '<ul class="contact-icons color1">'+
+                            '<a class="button special circle icon fa-angle-right fa-2x"  style="background:MistyRose; float:left; color:blacks"  href="#steelhacks"> </a> &nbsp'+
+                        '</ul>'+
+                    '</font>'+
+                '</body>',
+        maxWidth:250,
     });
     var marker2 = new google.maps.Marker(
     {
@@ -60,17 +70,21 @@ function initMap() {
     ////////////////////////////////////////////////////Verafin//////////////////////////////////////////////////////
 
     var infowindow3 = new google.maps.InfoWindow({
-        content:'<font color="black">'+
-                    '<h2 style="color:black;">Starterhacks</h2>'+
-                    '<img ALIGN="Center" style="max-width:400px;height:auto;" src="images/images/verafin.jpg">'+
-                    '<p>During my time at Nalcor I worked here when I was not in the field.</p>'+
-                    '<div>'+
-                        '<a href="#nokia" style = "color:#0000ff;" class="button special circle color1 icon fa-angle-right">click for details</a>'+
-                        '<p>click for details</p>'+
-                    '</div>'+
-                    '<h4> click for details </h4>'+
-                '</font>',
-        maxWidth:400,
+        content:'<head>'+
+                    '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">'+
+                '</head>'+
+                '<body>'+
+                   '<font color="#de7172">'+
+                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/startersmap.png">'+
+                        'Hacakthon at the University of Waterloo'+
+                        '<br>'+
+                        '<br>'+
+                        '<ul class="contact-icons color1">'+
+                            '<a class="button special circle icon fa-angle-right fa-2x"  style="background:MistyRose; float:left; color:blacks"  href="#starterhacks"> </a>'+
+                        '</ul>'+
+                    '</font>'+
+                '</body>',
+        maxWidth:250,
     });
     var marker3 = new google.maps.Marker({
     	position: starterhacks,
@@ -83,16 +97,21 @@ function initMap() {
     //////////////////////////////////////////////////////////////////////////////MUN//////////////////////////////////////////////////////////////////////////////
 
     var infowindow4 = new google.maps.InfoWindow({
-        content:'<font color="black">'+
-                    '<h3 style="color:black;">SFHacks</h3>'+
-                    '<img ALIGN="Center" style="max-width:400px;height:auto;" src="images/images/verafin.jpg">'+
-                    '<p>During my time at Nalcor I worked here when I was not in the field.</p>'+
-                    '<div>'+
-                        '<a href="#nokia" style = "color:#0000ff;" class="button special circle color1 icon fa-angle-right">click for details</a>'+
-                        '<p>click for details</p>'+
-                    '</div>'+
-                '</font>',
-        maxWidth:400,
+        content:'<head>'+
+                    '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">'+
+                '</head>'+
+                '<body>'+
+                   '<font color="#de7172">'+
+                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/sfHacksFlyer-1_0.jpg">'+
+                        'Hacakthon at SanFrancisco State University (Silicon Valley)'+
+                        '<br>'+
+                        '<br>'+
+                        '<ul class="contact-icons color1">'+
+                            '<a class="button special circle icon fa-angle-right fa-2x"  style="background:MistyRose; float:left; color:blacks"  href="#sfhacks"> </a> &nbsp'+
+                        '</ul>'+
+                    '</font>'+
+                '</body>',
+        maxWidth:250,
     });
     var marker4 = new google.maps.Marker({
     	position: sfhacks,
