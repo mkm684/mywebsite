@@ -6,23 +6,28 @@ function initMap() {
    
     
     var map = new google.maps.Map(document.getElementById('map'), {
-    	zoom: 5,
-    	center: {lat: 49.247260, lng: -60.897703}
+    	zoom: 11,
+    	center: {lat: 47.6020995, lng: -52.7211914}
     });
 
     //////////////////////////////////////////////////////Nokia/////////////////////////////////////////////////////
 
     var infowindow = new google.maps.InfoWindow({
-        content:'<font color="black">'+
-                    '<h2 style="color:black;">Nokia Networks</h2>'+
-                    '<img ALIGN="Center" style="max-width:400px;height:auto;" src="images/images/verafin.jpg">'+
-                    '<p>During my time at Nalcor I worked here when I was not in the field.</p>'+
-                    '<div>'+
-                        '<a href="#nokia" style = "color:#0000ff;" class="button special circle color1 icon fa-angle-right">click for details</a>'+
-                        '<p>click for details</p>'+
-                    '</div>'+
-                '</font>',
-        maxWidth:400,
+        content:'<head>'+
+                    '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">'+
+                '</head>'+
+                '<body>'+
+                   '<font color="#de7172">'+
+                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/nokia-logo.jpg">'+
+                        'First ever Hacakthon for me to attended'+
+                        '<br>'+
+                        '<br>'+
+                        '<ul class="contact-icons color1">'+
+                            '<a class="button special circle icon fa-angle-right fa-2x"  style="background:MistyRose; float:left; color:blacks"  href="#nokia"> </a> &nbsp'+
+                        '</ul>'+
+                    '</font>'+
+                '</body>',
+        maxWidth:250,
         backgroundColour:'rgb(57,57,57)',  
     });
     var marker = new google.maps.Marker({
@@ -37,16 +42,21 @@ function initMap() {
     ////////////////////////////////////////////////////Bluedrop//////////////////////////////////////////////////////
 
     var infowindow2 = new google.maps.InfoWindow({
-        content:'<font color="black">'+
-                    '<h2 style="color:black;">Bluedrop Perfromance learning</h2>'+
-                    '<img ALIGN="Center" style="max-width:400px;height:auto;" src="images/images/verafin.jpg">'+
-                    '<p>During my time at Nalcor I worked here when I was not in the field.</p>'+
-                    '<div>'+
-                        '<a href="#nokia" style = "color:#0000ff;" class="button special circle color1 icon fa-angle-right">click for details</a>'+
-                        '<p>click for details</p>'+
-                    '</div>'+
-                '</font>',
-        maxWidth:400,
+        content:'<head>'+
+                    '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">'+
+                '</head>'+
+                '<body>'+
+                   '<font color="#de7172">'+
+                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/bluemaps.jpeg">'+
+                        'Third Internship'+
+                        '<br>'+
+                        '<br>'+
+                        '<ul class="contact-icons color1">'+
+                            '<a class="button special circle icon fa-angle-right fa-2x"  style="background:MistyRose; float:left; color:blacks"  href="#bluedrop"> </a> &nbsp'+
+                        '</ul>'+
+                    '</font>'+
+                '</body>',
+        maxWidth:250,
     });
     var marker2 = new google.maps.Marker(
     {
@@ -60,17 +70,21 @@ function initMap() {
     ////////////////////////////////////////////////////Verafin//////////////////////////////////////////////////////
 
     var infowindow3 = new google.maps.InfoWindow({
-        content:'<font color="black">'+
-                    '<h2 style="color:black;">Verafin</h2>'+
-                    '<img ALIGN="Center" style="max-width:400px;height:auto;" src="images/images/verafin.jpg">'+
-                    '<p>During my time at Nalcor I worked here when I was not in the field.</p>'+
-                    '<div>'+
-                        '<a href="#nokia" style = "color:#0000ff;" class="button special circle color1 icon fa-angle-right">click for details</a>'+
-                        '<p>click for details</p>'+
-                    '</div>'+
-                    '<h4> click for details </h4>'+
-                '</font>',
-        maxWidth:400,
+        content:'<head>'+
+                    '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">'+
+                '</head>'+
+                '<body>'+
+                   '<font color="#de7172">'+
+                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/verafin.png">'+
+                        'Second Internship'+
+                        '<br>'+
+                        '<br>'+
+                        '<ul class="contact-icons color1">'+
+                            '<a class="button special circle icon fa-angle-right fa-2x"  style="background:MistyRose; float:left; color:blacks"  href="#verafin"> </a> &nbsp'+
+                        '</ul>'+
+                    '</font>'+
+                '</body>',
+        maxWidth:250,
     });
     var marker3 = new google.maps.Marker({
     	position: verafin,
@@ -83,16 +97,21 @@ function initMap() {
     //////////////////////////////////////////////////////////////////////////////MUN//////////////////////////////////////////////////////////////////////////////
 
     var infowindow4 = new google.maps.InfoWindow({
-        content:'<font color="black">'+
-                    '<h3 style="color:black;">Memorial University, Engineering Faculty</h3>'+
-                    '<img ALIGN="Center" style="max-width:400px;height:auto;" src="images/images/verafin.jpg">'+
-                    '<p>During my time at Nalcor I worked here when I was not in the field.</p>'+
-                    '<div>'+
-                        '<a href="#nokia" style = "color:#0000ff;" class="button special circle color1 icon fa-angle-right">click for details</a>'+
-                        '<p>click for details</p>'+
-                    '</div>'+
-                '</font>',
-        maxWidth:400,
+        content:'<head>'+
+                    '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">'+
+                '</head>'+
+                '<body>'+
+                   '<font color="#de7172">'+
+                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/engmaps.jpg">'+
+                        'First Internship'+
+                        '<br>'+
+                        '<br>'+
+                        '<ul class="contact-icons color1">'+
+                            '<a class="button special circle icon fa-angle-right fa-2x"  style="background:MistyRose; float:left; color:blacks"  href="#mun"> </a> &nbsp'+
+                        '</ul>'+
+                    '</font>'+
+                '</body>',
+        maxWidth:200,
     });
     var marker4 = new google.maps.Marker({
     	position: mun,
