@@ -47,7 +47,7 @@ function initMap() {
                 '</head>'+
                 '<body>'+
                    '<font color="#de7172">'+
-                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/bluemaps.jpe">'+
+                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/bluemaps.jpeg">'+
                         'Third Internship'+
                         '<br>'+
                         '<br>'+
