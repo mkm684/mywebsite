@@ -18,7 +18,7 @@ function initMap() {
                 '</head>'+
                 '<body>'+
                    '<font color="#de7172">'+
-                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/nokia-logo.jpg">'+
+                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/images/nokia-logo.jpg">'+
                         'First ever Hacakthon for me to attended'+
                         '<br>'+
                         '<br>'+
@@ -47,7 +47,7 @@ function initMap() {
                 '</head>'+
                 '<body>'+
                    '<font color="#de7172">'+
-                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/bluemaps.jpeg">'+
+                        '<img ALIGN="Center" style="max-width:250px;height:auto;" src="./images/bluemaps.jpg">'+
                         'Third Internship'+
                         '<br>'+
                         '<br>'+
